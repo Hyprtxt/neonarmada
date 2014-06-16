@@ -64,8 +64,8 @@ html(lang="en")
     nav.navbar.navbar-default.navbar-fixed-top
       .container
         .navbar-header
-          a.navbar-brand(href="/") Welcome
-        ul.nav.navbar-nav
+          a.navbar-brand(href="/") Neon Armada
+        //- ul.nav.navbar-nav
           each doc in getCollection('pages').toJSON()
             - clazz = (document.url === doc.url) ? 'active' : null
             li(typeof="sioc:Page", about=doc.url, class=clazz)

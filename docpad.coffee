@@ -12,20 +12,20 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://website.com"
+      url: "http://neonarmada.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
-        'www.website.com',
-        'website.herokuapp.com'
+        'www.neonarmada.com',
+        'neonarmada.herokuapp.com'
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "Neon Armada"
 
       # The website description (for SEO)
       description: """
-        When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+        A transparent umbrella startup for an armada of passionate players, performances and practice!
         """
 
       # The website keywords (for SEO) separated by commas
@@ -34,13 +34,13 @@ docpadConfig =
         """
 
       # The website author's name
-      author: "Your Name"
+      author: "Taylor Young"
 
       # The website author's email
-      email: "your@email.com"
+      email: "tdy721@gmail.com"
 
       # Your company's name
-      copyright: "© Your Company 2013"
+      copyright: "© Neon Armada 2014"
 
 
     # Helper Functions
